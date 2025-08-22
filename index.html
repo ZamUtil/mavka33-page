@@ -1,49 +1,132 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой сайт</title>
+    <title>Oleksandra Kalynych | UGC Creator</title>
     <style>
         body {
-          font-family: Arial, sans-serif;
-          background: #f4f4f4;
           margin: 0;
-          padding: 0;
-          text-align: center;
+          font-family: 'Arial', sans-serif;
+          background-color: #fff8f0;
+          color: #333;
         }
         header {
-          background: #333;
-          color: white;
-          padding: 20px;
+          text-align: center;
+          padding: 60px 20px 40px;
+          background: linear-gradient(135deg, #ffe4e1, #fff0f5);
         }
-        main {
-          margin: 40px auto;
-          max-width: 600px;
-          background: white;
-          padding: 20px;
-          border-radius: 10px;
-          box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        header img {
+          width: 160px;
+          height: 160px;
+          border-radius: 50%;
+          object-fit: cover;
+          border: 4px solid #ffcccb;
+        }
+        header h1 {
+          margin: 15px 0 5px;
+          font-size: 2.2em;
+        }
+        header p {
+          margin: 0;
+          font-size: 1.1em;
+          color: #555;
+        }
+        .buttons {
+          margin-top: 15px;
+        }
+        .buttons a {
+          display: inline-block;
+          margin: 5px 10px;
+          padding: 10px 25px;
+          background-color: #ffb6c1;
+          color: #fff;
+          text-decoration: none;
+          border-radius: 25px;
+          transition: 0.3s;
+          font-weight: bold;
+        }
+        .buttons a:hover {
+          background-color: #ff69b4;
+        }
+        section {
+          max-width: 900px;
+          margin: 50px auto;
+          padding: 0 20px;
+        }
+        section h2 {
+          text-align: center;
+          margin-bottom: 30px;
+          font-size: 2em;
+          color: #ff6f91;
+        }
+        section p {
+          font-size: 1.1em;
+          line-height: 1.6;
+          text-align: center;
+        }
+        .portfolio {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+          gap: 20px;
+        }
+        .portfolio img {
+          width: 100%;
+          border-radius: 15px;
+          transition: transform 0.3s;
+        }
+        .portfolio img:hover {
+          transform: scale(1.05);
         }
         footer {
-          margin-top: 40px;
-          padding: 10px;
-          background: #333;
-          color: #ccc;
+          text-align: center;
+          padding: 25px;
+          background-color: #ffb6c1;
+          color: #fff;
+          font-weight: bold;
+        }
+
+        @media (max-width: 600px) {
+          header h1 { font-size: 1.8em; }
+          section h2 { font-size: 1.6em; }
         }
     </style>
 </head>
 <body>
+
 <header>
-    <h1>Добро пожаловать!</h1>
+    <img src="avatar.png" alt="Oleksandra Kalynych">
+    <h1>Oleksandra Kalynych</h1>
+    <p>UGC Creator • Київ • Моменти життя з Варварою</p>
+    <div class="buttons">
+        <a href="https://www.instagram.com/mavka33" target="_blank">Instagram</a>
+        <a href="mailto:example@gmail.com">Написати</a>
+    </div>
 </header>
-<main>
-    <h2>Это моя первая статическая страница</h2>
-    <p>Хостинг: <strong>GitHub Pages</strong> + бесплатный домен.</p>
-    <p>Можно добавить сюда любые HTML, CSS и JavaScript файлы.</p>
-</main>
+
+<section>
+    <h2>Про мене</h2>
+    <p>Я — Олександра, мама Варвари. Створюю UGC-контент для брендів про сімейне життя, дитячий одяг та книги. Люблю знімати щирі моменти та ділитися натхненням з аудиторією.</p>
+</section>
+
+<section>
+    <h2>Портфоліо</h2>
+    <div class="portfolio">
+        <img src="example1.png" alt="UGC приклад 1">
+        <img src="example2.png" alt="UGC приклад 2">
+        <img src="example3.png" alt="UGC приклад 3">
+        <img src="example4.png" alt="UGC приклад 4">
+    </div>
+</section>
+
+<section>
+    <h2>Співпраця</h2>
+    <p>Відкрита до колаборацій з брендами у сфері дитячих товарів, книг та сімейного лайфстайлу. Гарантую щирий та естетичний контент, який знаходить відгук у аудиторії.</p>
+</section>
+
 <footer>
-    <p>© 2025 Мой сайт</p>
+    © 2025 Oleksandra Kalynych
 </footer>
+
 </body>
 </html>
