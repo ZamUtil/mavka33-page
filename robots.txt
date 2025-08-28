@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mavka33.pp.ua/sitemap.xml
