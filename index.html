@@ -3,50 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oleksandra Kalynych | UGC Creator | Mavka33</title>
-    <meta name="description" content="Oleksandra Kalynych | UGC Creator | Mavka33">
-
+    <title id="page-title">Oleksandra Kalynych | UGC Creator | Mavka33 | Мавка33</title>
+    <meta id="page-desc" name="description" content="Oleksandra Kalynych | UGC Creator | Mavka33 | Мавка33">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-2XCG4XY2D0"></script>
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<script src="js/gtag.js"></script>
 
 <header>
     <img src="photos/avatar.png" alt="Oleksandra Kalynych">
     <h1>Oleksandra Kalynych</h1>
-    <p>UGC Creator • Київ • Моменти життя з Варварою</p>
+    <p data-i18n="subtitle"></p>
     <div class="buttons">
         <a href="https://www.instagram.com/mavka33" target="_blank">Instagram</a>
-        <a href="mailto:Chii93paradise@gmail.com">Написати</a>
+        <a href="mailto:Chii93paradise@gmail.com" data-i18n="contact"></a>
     </div>
 </header>
 
 <section>
-    <h2>Про мене</h2>
-    <p>Я — Олександра, мама Варвари. Створюю UGC-контент для брендів про сімейне життя, дитячий одяг та книги. Люблю знімати щирі моменти та ділитися натхненням з аудиторією.</p>
+    <h2 data-i18n="about_title"></h2>
+    <p data-i18n="about_text"></p>
 </section>
 
 <section>
-    <h2>Портфоліо</h2>
+    <h2 data-i18n="portfolio_title"></h2>
     <div class="portfolio">
-        <img src="photos/example1.png" alt="UGC приклад 1">
-        <img src="photos/example2.png" alt="UGC приклад 2">
-        <img src="photos/example3.png" alt="UGC приклад 3">
-        <img src="photos/example4.png" alt="UGC приклад 4">
+        <img src="photos/example1.png" alt="UGC 1">
+        <img src="photos/example2.png" alt="UGC 2">
+        <img src="photos/example3.png" alt="UGC 3">
+        <img src="photos/example4.png" alt="UGC 4">
     </div>
 </section>
 
 <section>
-    <h2>Співпраця</h2>
-    <p>Відкрита до колаборацій з брендами у сфері дитячих товарів, книг та сімейного лайфстайлу. Гарантую щирий та естетичний контент, який знаходить відгук у аудиторії.</p>
+    <h2 data-i18n="collab_title"></h2>
+    <p data-i18n="collab_text"></p>
 </section>
 
 <footer>
     © 2025 Oleksandra Kalynych
 </footer>
 
+<div class="lang-switch">
+    <button onclick="setLang('uk')">🇺🇦</button>
+    <button onclick="setLang('en')">🇬🇧</button>
+</div>
+
+<script src="js/gtag.js"></script>
+<script src="js/lang.js"></script>
 </body>
 </html>
