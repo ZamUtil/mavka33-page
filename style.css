@@ -82,7 +82,7 @@ section p {
 }
 
 .portfolio img:hover {
-	transform: scale(1.2);
+	transform: scale(1.05);
 }
 
 footer {
